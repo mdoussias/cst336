@@ -11,6 +11,6 @@ echo 'Mac Doussias CST336 Internet Programming';
     <h1>Labs</h1>
     <a href="labs/lab1"> Lab 1 </a>
     <h1>Homework</h1>
-    <a href="homework/homework1"> Lab 1 </a>
+    <a href="homework/homework1"> Homework1 </a>
 </body>
 </html>
