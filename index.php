@@ -5,7 +5,12 @@
 // then click the URL that is emitted to the Output tab of the console
 
 echo 'Mac Doussias CST336 Internet Programming';
-
 ?>
+
+  <br /><br />
+    <h1>Labs</h1>
+    <a href="labs/lab1"> Lab 1 </a>
+    <h1>Homework</h1>
+    <a href="homework/homework1"> Lab 1 </a>
 </body>
 </html>
