@@ -1,0 +1,105 @@
+body{
+	background-color:whitesmoke;
+	color:black;
+}
+
+nav a{ /*links within "nav: container*/
+	padding:12px;
+	padding-bottom:5px;
+	font-size 2em;
+	text-decoration: none; 	/* removes underline */
+	color: teal; 			/* by default, links are blue */
+	
+}
+
+nav a:hover{ /*pseudo class*/
+	border-bottom:1px red solid;
+	font-size: 1.2em;
+	transition: .4s; /* transition effect */
+}
+
+.selectedPage{
+	border-bottom:3px red solid;
+}
+
+#homeImage, #homeText{
+	float: left;
+}
+
+#homeText{
+	text-align: left;
+}
+
+footer{
+	clear: left;
+	font-size: .7em;
+	color: dimgray;
+	text-align: center; 
+}
+
+h1{
+	font-family: 'Acme';
+	font-size: 4em;
+	margin-bottom: 2px;
+	color:dimgray;
+}
+
+h2{
+	    font-family: "Courier";
+		color:Violet;
+}
+
+tt{
+	color: mediumseagreen;
+	font-weight: bold;
+}
+
+table
+{
+	width:50%;
+	align:left;
+	color:teal;
+}
+
+th{
+	border: 2px solid blue;
+	background-color: orange;
+}
+
+td{
+	border: 1px solid orange;
+}
+
+ul{
+	font-weight: bold;
+	text-align: left;
+	padding-left: 200px;
+}
+
+li{
+	font-style: oblique;
+}
+
+
+.nextpagelink{
+	color:red;
+}
+
+.outsidepagelink{
+	color: darkgreen;
+	font-weight: bold;
+}
+
+.finallinks{
+	text-decoration: underline;
+}
+
+header, main, nav{ /*aligns header, main, nav to the left*/
+	text-align: left; 
+}
+
+sup{
+	font-weight: bold;
+}
+
+
