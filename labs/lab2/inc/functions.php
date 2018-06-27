@@ -1,5 +1,9 @@
 
-
+<!--
+Mac Doussias
+CST 336 CSUMB
+LAB2
+-->
 
 <?php
     function play(){
