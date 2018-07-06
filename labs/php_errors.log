@@ -1,3 +1,117 @@
 [25-Jun-2018 05:17:59 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ';' in /home/ubuntu/workspace/cst336/labs/lab2/index.php on line 26
 [25-Jun-2018 05:30:43 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/labs/lab2/index.php on line 56
 [25-Jun-2018 05:42:51 UTC] PHP Parse error:  syntax error, unexpected '"."' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/labs/lab2/index.php on line 63
+[01-Jul-2018 03:31:37 UTC] PHP Fatal error:  Cannot redeclare play() (previously declared in /home/ubuntu/workspace/cst336/labs/lab2/inc/functions.php:9) in /home/ubuntu/workspace/cst336/labs/lab2/inc/functions.php on line 88
+[01-Jul-2018 03:31:37 UTC] PHP Stack trace:
+[01-Jul-2018 03:31:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
+[01-Jul-2018 03:32:35 UTC] PHP Fatal error:  Cannot redeclare play() (previously declared in /home/ubuntu/workspace/cst336/labs/lab2/inc/functions.php:9) in /home/ubuntu/workspace/cst336/labs/lab2/inc/functions.php on line 88
+[01-Jul-2018 03:32:35 UTC] PHP Stack trace:
+[01-Jul-2018 03:32:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
+[01-Jul-2018 03:32:52 UTC] PHP Fatal error:  Cannot redeclare play() (previously declared in /home/ubuntu/workspace/cst336/labs/lab2/inc/functions.php:9) in /home/ubuntu/workspace/cst336/labs/lab2/inc/functions.php on line 88
+[01-Jul-2018 03:32:52 UTC] PHP Stack trace:
+[01-Jul-2018 03:32:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
+[01-Jul-2018 03:33:31 UTC] PHP Fatal error:  Cannot redeclare play() (previously declared in /home/ubuntu/workspace/cst336/labs/lab2/inc/functions.php:9) in /home/ubuntu/workspace/cst336/labs/lab2/inc/functions.php on line 88
+[01-Jul-2018 03:33:31 UTC] PHP Stack trace:
+[01-Jul-2018 03:33:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
+[01-Jul-2018 03:34:48 UTC] PHP Fatal error:  Cannot redeclare play() (previously declared in /home/ubuntu/workspace/cst336/labs/lab2/inc/functions.php:9) in /home/ubuntu/workspace/cst336/labs/lab2/inc/functions.php on line 88
+[01-Jul-2018 03:34:48 UTC] PHP Stack trace:
+[01-Jul-2018 03:34:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
+[01-Jul-2018 03:35:25 UTC] PHP Fatal error:  Cannot redeclare play() (previously declared in /home/ubuntu/workspace/cst336/labs/lab2/inc/functions.php:9) in /home/ubuntu/workspace/cst336/labs/lab2/inc/functions.php on line 88
+[01-Jul-2018 03:35:25 UTC] PHP Stack trace:
+[01-Jul-2018 03:35:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
+[01-Jul-2018 03:40:57 UTC] PHP Fatal error:  Cannot redeclare play() (previously declared in /home/ubuntu/workspace/cst336/labs/lab2/inc/functions.php:9) in /home/ubuntu/workspace/cst336/labs/lab2/inc/functions.php on line 88
+[01-Jul-2018 03:40:57 UTC] PHP Stack trace:
+[01-Jul-2018 03:40:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
+[01-Jul-2018 03:43:36 UTC] PHP Fatal error:  Cannot redeclare play() (previously declared in /home/ubuntu/workspace/cst336/labs/lab2/inc/functions.php:9) in /home/ubuntu/workspace/cst336/labs/lab2/inc/functions.php on line 88
+[01-Jul-2018 03:43:36 UTC] PHP Stack trace:
+[01-Jul-2018 03:43:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab2/index.php:0
+[04-Jul-2018 03:53:29 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 48
+[04-Jul-2018 03:53:29 UTC] PHP Stack trace:
+[04-Jul-2018 03:53:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 03:53:30 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 48
+[04-Jul-2018 03:53:30 UTC] PHP Stack trace:
+[04-Jul-2018 03:53:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 06:37:19 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 67
+[04-Jul-2018 06:37:19 UTC] PHP Stack trace:
+[04-Jul-2018 06:37:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 06:37:19 UTC] PHP   2. rand() /home/ubuntu/workspace/cst336/labs/lab3/index.php:67
+[04-Jul-2018 06:45:25 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 67
+[04-Jul-2018 06:45:27 UTC] PHP Stack trace:
+[04-Jul-2018 06:45:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 06:47:01 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 67
+[04-Jul-2018 06:47:01 UTC] PHP Stack trace:
+[04-Jul-2018 06:47:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 06:47:01 UTC] PHP   2. rand() /home/ubuntu/workspace/cst336/labs/lab3/index.php:67
+[04-Jul-2018 06:50:20 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 67
+[04-Jul-2018 06:50:20 UTC] PHP Stack trace:
+[04-Jul-2018 06:50:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 06:50:32 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 48
+[04-Jul-2018 06:50:32 UTC] PHP Stack trace:
+[04-Jul-2018 06:50:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 06:50:38 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 48
+[04-Jul-2018 06:50:38 UTC] PHP Stack trace:
+[04-Jul-2018 06:50:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 06:51:15 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 67
+[04-Jul-2018 06:51:15 UTC] PHP Stack trace:
+[04-Jul-2018 06:51:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 06:51:26 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 48
+[04-Jul-2018 06:51:26 UTC] PHP Stack trace:
+[04-Jul-2018 06:51:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 06:53:55 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 48
+[04-Jul-2018 06:53:56 UTC] PHP Stack trace:
+[04-Jul-2018 06:53:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 06:56:22 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 48
+[04-Jul-2018 06:56:22 UTC] PHP Stack trace:
+[04-Jul-2018 06:56:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 06:56:56 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 50
+[04-Jul-2018 06:56:56 UTC] PHP Stack trace:
+[04-Jul-2018 06:56:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 06:57:13 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 67
+[04-Jul-2018 06:57:13 UTC] PHP Stack trace:
+[04-Jul-2018 06:57:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 06:57:13 UTC] PHP   2. count() /home/ubuntu/workspace/cst336/labs/lab3/index.php:67
+[04-Jul-2018 06:57:20 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 48
+[04-Jul-2018 06:57:20 UTC] PHP Stack trace:
+[04-Jul-2018 06:57:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 06:58:55 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 48
+[04-Jul-2018 06:58:55 UTC] PHP Stack trace:
+[04-Jul-2018 06:58:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 07:03:47 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 48
+[04-Jul-2018 07:03:47 UTC] PHP Stack trace:
+[04-Jul-2018 07:03:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 07:25:38 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 66
+[04-Jul-2018 07:25:38 UTC] PHP Stack trace:
+[04-Jul-2018 07:25:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 07:28:54 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 66
+[04-Jul-2018 07:28:55 UTC] PHP Stack trace:
+[04-Jul-2018 07:28:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 07:30:11 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 66
+[04-Jul-2018 07:30:11 UTC] PHP Stack trace:
+[04-Jul-2018 07:30:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 07:30:44 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 66
+[04-Jul-2018 07:30:44 UTC] PHP Stack trace:
+[04-Jul-2018 07:30:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 07:31:16 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 66
+[04-Jul-2018 07:31:16 UTC] PHP Stack trace:
+[04-Jul-2018 07:31:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 07:32:21 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 66
+[04-Jul-2018 07:32:21 UTC] PHP Stack trace:
+[04-Jul-2018 07:32:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 07:48:25 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 67
+[04-Jul-2018 07:48:25 UTC] PHP Stack trace:
+[04-Jul-2018 07:48:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[04-Jul-2018 07:59:11 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab3/index.php on line 55
+[04-Jul-2018 07:59:11 UTC] PHP Stack trace:
+[04-Jul-2018 07:59:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab3/index.php:0
+[06-Jul-2018 02:26:40 UTC] PHP Fatal error:  Call to undefined function displayResults() in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 56
+[06-Jul-2018 02:26:40 UTC] PHP Stack trace:
+[06-Jul-2018 02:26:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[06-Jul-2018 02:27:46 UTC] PHP Fatal error:  Call to undefined function displayResults() in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 56
+[06-Jul-2018 02:27:46 UTC] PHP Stack trace:
+[06-Jul-2018 02:27:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[06-Jul-2018 03:02:59 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 80
+[06-Jul-2018 03:02:59 UTC] PHP Stack trace:
+[06-Jul-2018 03:02:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[06-Jul-2018 03:21:10 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 80
+[06-Jul-2018 03:21:10 UTC] PHP Stack trace:
+[06-Jul-2018 03:21:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
