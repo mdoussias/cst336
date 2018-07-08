@@ -1,0 +1,79 @@
+/*
+Mac Doussias
+CST 336 Homework 2 CSUMB
+*/
+
+
+
+body{
+	background-color:powderblue;
+	color:gray;
+    text-align: center;
+}
+
+#mainText{
+    font-weight: bold;
+}
+
+.imageClass{
+    font-weight: lighter;
+    font-size: small;
+    color: blue;
+}
+
+#capsSpan{
+    font-variant: small-caps;
+}
+
+p{
+    font-size: x-large;
+    color: darkorange;
+}
+
+.binaryImg:hover{
+    opacity:.75;
+     transition: 0.6s;
+}
+
+hr{
+    border-bottom-color: black;
+    height: 3px;
+}
+
+
+h1{
+    text-decoration: underline;
+    font-family: Courier;
+}
+
+header{
+    background-color: #FFFACD;
+}
+
+footer{
+    background-color: white;
+    font-size: small;
+}
+
+input{
+    font-style: italic;
+}
+
+div{
+    border: 3px;
+}
+
+#disclaimerText{
+    text-shadow: 1px 1px red;
+}
+
+form{
+    background-color: red;
+}
+
+
+input[type=submit] {
+    background:#7FFFD4; 
+    border:1px;
+    border-radius: 15px; 
+}
