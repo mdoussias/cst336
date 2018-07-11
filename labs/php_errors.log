@@ -115,3 +115,105 @@
 [06-Jul-2018 03:21:10 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 80
 [06-Jul-2018 03:21:10 UTC] PHP Stack trace:
 [06-Jul-2018 03:21:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[11-Jul-2018 02:37:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':productName' at line 1' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:48
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(48): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(91): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 48
+[11-Jul-2018 02:37:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':productName' at line 1' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:48
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(48): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(91): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 48
+[11-Jul-2018 03:24:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:56
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(56): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(99): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 56
+[11-Jul-2018 03:24:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:56
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(56): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(99): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 56
+[11-Jul-2018 03:36:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:73
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(73): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(116): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 73
+[11-Jul-2018 03:37:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:73
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(73): PDOStatement->execute(NULL)
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(116): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 73
+[11-Jul-2018 03:37:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:73
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(73): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(116): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 73
+[11-Jul-2018 03:37:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:73
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(73): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(116): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 73
+[11-Jul-2018 03:54:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:73
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(73): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(119): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 73
+[11-Jul-2018 03:54:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:73
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(73): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(119): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 73
+[11-Jul-2018 03:57:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/cst336/labs/lab5/index.php:73
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/labs/lab5/index.php(73): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/labs/lab5/index.php(119): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/labs/lab5/index.php on line 73
+[11-Jul-2018 04:03:23 UTC] PHP Warning:  include(../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php on line 2
+[11-Jul-2018 04:03:23 UTC] PHP Stack trace:
+[11-Jul-2018 04:03:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php:0
+[11-Jul-2018 04:03:23 UTC] PHP Warning:  include(): Failed opening '../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php on line 2
+[11-Jul-2018 04:03:23 UTC] PHP Stack trace:
+[11-Jul-2018 04:03:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php:0
+[11-Jul-2018 04:03:23 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php on line 3
+[11-Jul-2018 04:03:23 UTC] PHP Stack trace:
+[11-Jul-2018 04:03:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php:0
+[11-Jul-2018 04:08:37 UTC] PHP Warning:  include(../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php on line 2
+[11-Jul-2018 04:08:37 UTC] PHP Stack trace:
+[11-Jul-2018 04:08:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php:0
+[11-Jul-2018 04:08:37 UTC] PHP Warning:  include(): Failed opening '../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php on line 2
+[11-Jul-2018 04:08:37 UTC] PHP Stack trace:
+[11-Jul-2018 04:08:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php:0
+[11-Jul-2018 04:08:37 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php on line 3
+[11-Jul-2018 04:08:37 UTC] PHP Stack trace:
+[11-Jul-2018 04:08:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php:0
+[11-Jul-2018 04:09:15 UTC] PHP Warning:  include(../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php on line 2
+[11-Jul-2018 04:09:15 UTC] PHP Stack trace:
+[11-Jul-2018 04:09:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php:0
+[11-Jul-2018 04:09:15 UTC] PHP Warning:  include(): Failed opening '../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php on line 2
+[11-Jul-2018 04:09:15 UTC] PHP Stack trace:
+[11-Jul-2018 04:09:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php:0
+[11-Jul-2018 04:09:15 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php on line 3
+[11-Jul-2018 04:09:15 UTC] PHP Stack trace:
+[11-Jul-2018 04:09:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php:0
+[11-Jul-2018 04:16:03 UTC] PHP Warning:  include(../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php on line 2
+[11-Jul-2018 04:16:03 UTC] PHP Stack trace:
+[11-Jul-2018 04:16:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php:0
+[11-Jul-2018 04:16:03 UTC] PHP Warning:  include(): Failed opening '../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php on line 2
+[11-Jul-2018 04:16:03 UTC] PHP Stack trace:
+[11-Jul-2018 04:16:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php:0
+[11-Jul-2018 04:16:03 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php on line 3
+[11-Jul-2018 04:16:03 UTC] PHP Stack trace:
+[11-Jul-2018 04:16:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab5/purchaseHistory.php:0
