@@ -1,10 +1,12 @@
 <!--
 Mac Doussias
 CST 336 Homework CSUMB
+LAB 3
 -->
 
 <?php
 	$backgroundImage = "img/sea.jpg";
+	
 	//API call goes here
 	if(isset($_GET['keyword'])){
 		include 'api/pixabayAPI.php';
@@ -30,6 +32,7 @@ CST 336 Homework CSUMB
 	</head>
 	
 	<body>
+		<br />
 		<?php 
 			if(!isset($imageURLs)){
 				echo"<h2>Type a keyword to display a slideshow<br/> with random images from Pixabay.com </h2>";
@@ -40,7 +43,7 @@ CST 336 Homework CSUMB
 			<!-- Indicators Here -->
 			<ol class="carousel-indicators">
 				<?php
-					for($i =0; $i < 7; $i++){
+					for($i = 0; $i < 7; $i++){
 						echo "<li data-target='#carousel-example-generic' data-slide-to='$i'";
 						echo($i == 0)?"class='active'": "";
 						echo "></li>";
@@ -55,7 +58,8 @@ CST 336 Homework CSUMB
 						do{
 							$randomIndex = rand(0,count($imageURLs));
 						}while(!isset($imageURLs[$randomIndex]));
-						echo '<div class="item';  //Note that using carousel-item does not work.
+						
+						echo '<div class="item ';  //Note that using carousel-item does not work.
 						echo ($i == 0)?"active": "";
 						echo '"><';
 						echo 'img src="'.$imageURLs[$randomIndex].'">';
@@ -94,7 +98,8 @@ CST 336 Homework CSUMB
 				<option value="pickup">Trucks</option>				
 				<option value="passenger van">Vans</option>
 				<option value="sports">Sports</option>
-				<option value="fruit">fruit</option>	
+				<option value="fruit">Fruit</option>
+				<option value="hats">Hats</option>				
 			</select>
 			<input type="submit" value="Search"/>
 		</form>	
@@ -103,8 +108,3 @@ CST 336 Homework CSUMB
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</body>
 </html>
-
-
-
-
-
