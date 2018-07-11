@@ -112,8 +112,14 @@ CST 336 Homework CSUMB LAB5
 				<br />
             	Price: From <input type="text" name="priceFrom" size="7" />
                  To   <input type="text" name="priceTo" size="7" />
-                   
+           
             	<br />
+            	
+				Order result by: 
+            	<br />
+            	<input type="radio" name="orderBy" value="price"/> Price <br />
+            	<input type="radio" name="orderBy" value="name"/> Name            	
+ 
 				<br />
 				
 				<input type="submit" value="Search" name="searchForm" />
