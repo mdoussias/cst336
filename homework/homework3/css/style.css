@@ -12,6 +12,8 @@ body{
 }
 
 header{
+    border: groove;
+    border-width: 3px;
     background-color: #A52A2A;
     color: #FFFACD;
     font-family: cursive;
@@ -34,12 +36,13 @@ header{
 
 .image:hover{
     opacity:.25;
-     transition: 0.4s;
+    transition: 0.4s;
 }
 
 
 #referencesText{
     color: orange;    
+    font-family: Times;
 }
 
 a:visited{
@@ -70,12 +73,68 @@ h2{
 }
 
 
-#errorMsg{
-    color:red;
+.errorMsg{
+    color: red;
+    font-variant: small-caps;
 }
 
 .pricingText{
     color: red; 
     font-size: 18px;
     font-family: monospace;
+}
+
+h3{
+  color: orange;
+  text-decoration: underline;
+  font-family: Helvetica;
+}
+
+hr { 
+    display: block;
+    border-width: 3px;
+    margin: auto;
+    border-style: groove;
+
+} 
+
+#galaText{
+    opacity: .5;
+    font-family: Helvetica;
+    font-size: 24px;
+    color: gold;
+    text-shadow: 1px 1px red; 
+}
+
+#receiptHeaderText{
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  color: #A52A2A;
+  font-weight: bolder;
+  font-size: 16px;
+  font-family: sans-serif;
+  text-shadow: 1.5px 1.5px black;
+}
+
+.asteriskText{
+    font-weight: bolder;
+    text-shadow: 1px 1px red;
+}
+
+label{
+        font-weight: bolder;
+        font-family: sans-serif;
+        text-shadow: 1px 1px red;
+        color: black;
+}
+
+#submitBtn{
+    background-color: darkgray; 
+    border: groove;
+    color: black;
+    font-size: 18px;
+    padding: 15px 40px;
+    text-decoration: underline;
+    margin: 2px 2px;
+    cursor: auto;
 }

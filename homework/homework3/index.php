@@ -115,7 +115,6 @@ CST 336 Homework 3 CSUMB
 	
 ?>
 
-
 <!DOCTYPE HTML>
 <html>
 	
@@ -127,44 +126,35 @@ CST 336 Homework 3 CSUMB
         <title>Random Binary</title>
 
     </head>
-
     <body>
         <header>
 			<h1>Ballet Tickets</h1>
 		</header>
-		
-
     <div id="mainDiv">
-        
         <img class="image" src="img/ballet.png" alt="Ballet Image Of Pas De Deux" />
-        
         <h2>The Big Ballet Company Presents:</h2>
+        <p id="galaText">A gala evening to remember!</p><br/>
         <ul style="list-style-type:disc">
           <li>Agon - <span class="nameText">George Balanchine</span></li>
           <li>Grande Pas Classique - <span class="nameText">Victor Gsovsky</span></li>
           <li>In The Glow Of the Night - <span class="nameText">Goh Choo San</li>
         </ul>  
-        
         <br /><br />
-        
         <?php 
 			if(!isset($_POST['submitButton'])){ //The form has not been submitted
-				echo "<p>ALL TICKETS ARE $ 25.00</p>";
+				echo "<h3>ALL TICKETS ARE $ 25.00</h3>";
 			}elseif($requiredFieldErrorBool or $ccNumberErrorBool){ //the form was submitted with errors
 				echo "<p class='errorMsg'>ERROR! THERE WAS A PROBLEM WITH YOUR TRANSACTION.<br>PLEASE ENSURE ALL DATA WAS ENTERED PROPERLY!</p>
-				<br /><br /><p>ALL TICKETS ARE $ 25.00</p>";
+				<br /><br /><h3>ALL TICKETS ARE $ 25.00</h3>";
 			}else{//The form was submitted properly
-				echo "<hr><h2>RECEIPT</h2>";
+				echo "<hr><p id='receiptHeaderText'>RECEIPT</p>";
 				echo "Thank you for your purchase <b>".$firstName." ".$lastName."</b>!<br /><br />";
-				
 				//Get the last four digits of credit card
 				$lastFourDigits = $ccNumber[15].$ccNumber[16].$ccNumber[17].$ccNumber[18];
 				echo "Your <b>".$creditCard."</b> ending in <b>".$lastFourDigits."</b> was charged for the following:<br />";
 				//Calculate the cost of the tickets
 				$costOfTickets = $numTickets * 25.00;
-				
 				$textOfTicketOrTickets = 'tickets';
-				
 				//Convert number of tickets to text
 				if($numTickets == 1){
 					$numTicketsText = 'One';
@@ -176,43 +166,28 @@ CST 336 Homework 3 CSUMB
 				}else{
 					$numTicketsText = 'Four';
 				}
-				
 				echo "<b>".$numTicketsText."</b> ".$textOfTicketOrTickets." for <i>".$ticketChoice."</i>:<b> $".number_format($costOfTickets, 2, '.', '')."</b><br />";
 				echo "Donation: <b>$".number_format($donation, 2, '.', '')."</b><br />";
 				echo "TOTAL CHARGED: <b>$".number_format(($costOfTickets + $donation),2,'.','')."</b><br />";
 				echo "<hr>";
-				
-				
-				
 			}
 			
         ?>
-   
-  
-        
         <br /><br />
-       
         <form action="index.php" method="post" name="formData">
-	    	
-	    	
-	    	First Name : <input class="textInput" name ="firstName" type="text" value=<?php  echo $firstName; ?>></input> 
+	    	<label for="firstName">First Name : </label><input class="textInput" name ="firstName" type="text" value=<?php  echo $firstName; ?>></input> 
 	    	<?php if($firstName == ""){echo $requiredFieldErrorMsg;} ?>
 	   		<br/> 	
-	    	
-	    	Last Name : <input class="textInput" name ="lastName" type="text" value=<?php  echo $lastName; ?>></input>
+	    	<label for="lastName">Last Name : </label><input class="textInput" name ="lastName" type="text" value=<?php  echo $lastName; ?>></input>
 	    	<?php if($lastName == ""){echo $requiredFieldErrorMsg;} ?>
 	   		<br/> 
-	    	
-	    	
-	    	Credit Card #: <input class="textInput" placeholder="XXXX-XXXX-XXXX-XXXX" name="ccNumber" type="text" value=<?php echo $ccNumber; ?> ></input>
+	    	<label for="ccNumber">Credit Card #: </label><input class="textInput" placeholder="XXXX-XXXX-XXXX-XXXX" name="ccNumber" type="text" value=<?php echo $ccNumber; ?> ></input>
 	    	<?php 
 	    		if($ccNumber == ""){echo $requiredFieldErrorMsg;}  
 	    		if($ccNumberErrorBool){echo $ccNumberErrorMsg;} 
 	    	?>
 	   		<br/> 	    
-	    	
-	    	
-	    	Credit Card Type: 
+	    	<label for="creditCard">Credit Card Type:</label> 
 	    	<select name="creditCard">
 	    	    <option value="" >SELECT</option>	    		
 	    	    <option value="Visa" <?php if($creditCard == "Visa"){ echo " selected ";} ?> >Visa</option>
@@ -221,12 +196,7 @@ CST 336 Homework 3 CSUMB
 	    	</select>
 	    	<?php if($creditCard == ""){echo $requiredFieldErrorMsg;} ?>
 	   		<br/> 
-	    	
-	    	
-	    	
-	    	
-	    	
-	    	Performance Date: 
+	    	<label for="ticketChoice">Performance Date: </label>
 	        <select name="ticketChoice">
 	    	    <option value="" >SELECT</option>	        	
 	    	    <option value="Sat., July 8th at 2:00pm" <?php if($ticketChoice == "Sat., July 8th at 2:00pm"){ echo " selected ";} ?> >Sat., July 8th at 2:00pm</option>
@@ -236,9 +206,7 @@ CST 336 Homework 3 CSUMB
 	    	</select>
 	    	<?php if($ticketChoice == ""){echo $requiredFieldErrorMsg;} ?>
 	   		<br/> 	    	
-	    	
-	    	
-	    	Number of Tickets***
+	    	<label for="numTickets">Number of Tickets<span class='asteriskText'>***</span></label>
 	        <select name="numTickets">
 	    	    <option value="" >SELECT</option>	        	
 	    	    <option value='1' <?php if($numTickets == 1){ echo " selected ";} ?>  >1</option>
@@ -247,35 +215,23 @@ CST 336 Homework 3 CSUMB
 	    	    <option value='4' <?php if($numTickets == 4){ echo " selected ";} ?> >4</option>
 	    	</select>
 	    	<?php if($numTickets == ""){echo $requiredFieldErrorMsg;} ?>
-	    	
-	    	
 	   		<br/> 
-	        <input id="donationCheckbox" name="donation" type="checkbox" value="2" <?php if($donation == 2.00 ){ echo " checked ";} ?> ></input><label for="donation">Add $2.00 donation to the Balletic Arts Fund</label><br/>	    		    		    	
-	    
-
-
-
-	    	<input type="submit" value="Purhcase" name="submitButton"></input><br/>
+	        <input id="donationCheckbox" name="donation" type="checkbox" value="2" <?php if($donation == 2.00 ){ echo " checked ";} ?> ></input><label for="donation">Add $2.00 donation to the Balletic Arts Fund</label><br/>
+	    	<br /><input id="submitBtn" type="submit" value="CLICK TO PURCHASE" name="submitButton"></input><br/>
         </form> 
     </div>
-	
-
-		
-		
-		<p id="specialNotes">***All tickets are for festival seating.<br />***For groups of 5 or more, please contact box office.</p>
-		
-		
-
+		<p id="specialNotes"><span class='asteriskText'>***</span>All tickets are for festival seating.<br /><span class='asteriskText'>***</span>For groups of 5 or more, please contact box office.</p>
         <footer>
             <hr>
 			<img src="img/logo.png" alt="CSUMB Logo" /><br />
 			CSUMB CST 336. 2018&copy; Doussias <br />
-			<strong>Disclaimer:</strong> The information in this webpage is fictitious. <br />
+			<strong>Disclaimer:</strong> The information in this webpage is fictitious.<br />
 			It is used for academic purposes only.<br />
 		    <span id="referencesText">
 		        <p>Image of dancers retrieved from pixabay.com on 7/8/2018 from the following link:</p>
-		        <a class="imageClass" href="https://pixabay.com/en/adult-ballerinas-ballet-1850184/">https://pixabay.com/en/adult-ballerinas-ballet-1850184/</a>
+		        <a  href="https://pixabay.com/en/adult-ballerinas-ballet-1850184/">https://pixabay.com/en/adult-ballerinas-ballet-1850184/</a>
 		    </span>
+		    <br /> <br /> <br />
 		</footer>
         
     </body>
