@@ -1,0 +1,81 @@
+/*
+Mac Doussias
+CST 336 Homework 3 CSUMB
+*/
+
+
+
+body{
+	background-color: #F5F5F5;
+	color: black;
+    text-align: center;
+}
+
+header{
+    background-color: #A52A2A;
+    color: #FFFACD;
+    font-family: cursive;
+}
+
+
+#mainDiv{
+    text-align: left;
+}
+
+.textInput{
+    width:300px; 
+    height:20px;
+    background-color: #FFFACD;
+    border-radius: 3px;
+    color: #2F4F4F;
+    font-family: arial;
+    font-size: 16px;
+}
+
+.image:hover{
+    opacity:.25;
+     transition: 0.4s;
+}
+
+
+#referencesText{
+    color: orange;    
+}
+
+a:visited{
+    color: orange;
+}
+
+.nameText{
+    font-variant: small-caps;
+}
+
+ul{
+    font-weight: bold;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+#specialNotes{
+    font-size: 15px; 
+    font-weight: lighter;
+}
+
+h2{
+    color: #A52A2A;
+    font-weight: bolder;
+    font-size: 24px;
+    font-family: sans-serif;
+    text-shadow: 2px 2px black;
+}
+
+
+#errorMsg{
+    color:red;
+}
+
+.pricingText{
+    color: red; 
+    font-size: 18px;
+    font-family: monospace;
+}

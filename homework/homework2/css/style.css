@@ -4,7 +4,6 @@ CST 336 Homework 2 CSUMB
 */
 
 
-
 body{
 	background-color:powderblue;
 	color:gray;
@@ -77,3 +76,5 @@ input[type=submit] {
     border:1px;
     border-radius: 15px; 
 }
+
+
