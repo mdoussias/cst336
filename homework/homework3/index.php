@@ -123,7 +123,7 @@ CST 336 Homework 3 CSUMB
             @import url("css/style.css");
         </style>
         <meta charset="utf-8">
-        <title>Random Binary</title>
+        <title>Big Ballet Tickets</title>
 
     </head>
     <body>
