@@ -118,3 +118,11 @@ Stack trace:
 [18-Jul-2018 06:58:20 UTC] PHP Fatal error:  Call to undefined function getCategories() in /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php on line 39
 [18-Jul-2018 06:58:20 UTC] PHP Stack trace:
 [18-Jul-2018 06:58:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/updateProduct.php:0
+[20-Jul-2018 04:11:01 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/cst336/labs/lab6/delete.php on line 2
+[20-Jul-2018 04:11:01 UTC] PHP Stack trace:
+[20-Jul-2018 04:11:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/delete.php:0
+[20-Jul-2018 04:11:01 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/cst336/labs/lab6/delete.php:2
+[20-Jul-2018 04:11:06 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/cst336/labs/lab6/delete.php on line 2
+[20-Jul-2018 04:11:06 UTC] PHP Stack trace:
+[20-Jul-2018 04:11:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab6/delete.php:0
+[20-Jul-2018 04:11:06 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/cst336/labs/lab6/delete.php:2

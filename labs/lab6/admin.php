@@ -69,12 +69,12 @@
                     echo "<td>".$record['productId']."</td>";
                     echo "<td>".$record['productName']."</td>";
                     echo "<td>".$record['productDescription']."</td>";
-                    echo "<td>".$record['price']."</td>";  
+                    echo "<td>$".number_format((float)$record['price'],2,'.','')."</td>";  
                     echo "<td><a class='btn btn-primary' href='updateProduct.php?productId=".$record['productId']."'>Update</a></td>";
                     
                     echo "<form action='delete.php' onsubmit='return confirmDelete()'>";
                     echo "<input type='hidden' name='productId' value=".$record['productId']." />"; 
-                    echo "<td><input type='submit' class='btn btn-danger' value='Remove'></td>"; 
+                    echo "<td><input type='submit' class='btn btn-danger' value='Remove'></td> </form>"; 
                 }
   
                 
