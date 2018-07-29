@@ -1,0 +1,64 @@
+<!--
+Mac Doussias
+CST 336 CSUMB
+Homework 4
+-->
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Cat Dog Game</title>
+		<meta charset="utf-8">
+		<script type="text/javascript" src="js/functions.js"></script>
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>	
+		<script>
+			$(document).ready(function()
+				{
+					// ---------------------------------------------------JQUERY
+					// Set default values attributes for the button class
+					$(".button").css('background-color','#FFAA00'); 
+					$(".button").css('color','white');	
+					$(".button").css('padding','8px');
+					$(".button").css('border-radius','8px');
+					$(".button").css('text-align','center');
+					$(".button").css('cursor','hand');
+					$(".button").css('cursor','pointer');					
+					
+					// Change the background color of the button on mouseover
+					$("#btnMoveAnimals").mouseover(function(){
+						$("#btnMoveAnimals").css('background-color','#FF8800');
+					});
+					// Change the background color of the button back on mouseout
+					$("#btnMoveAnimals").mouseout(function(){
+						$("#btnMoveAnimals").css('background-color','#FFAA00');
+					});	
+					
+					// Set some default values for the attributes of the gameWindow id
+					$("#gameWindow").css('position','relative');
+					$("#gameWindow").css('width','500px');	
+					$("#gameWindow").css('height','300px');
+					$("#gameWindow").css('margin','0 auto');
+					$("#gameWindow").css('background-color','black');
+					
+					// Set the the background color of the body element
+					$("body").css('background-color','silver');
+					
+					// Set the default attributes for the id btnMoveAnimals
+					$('#btnMoveAnimals').css('position','absolute');
+					$('#btnMoveAnimals').css('width','60px');					
+					$('#btnMoveAnimals').css('top','240px');					
+					$('#btnMoveAnimals').css('left','20px');
+					$('#btnMoveAnimals').css('z-index','3');					
+				});
+		</script>
+		<style>
+			@import url("css/style.css");
+		</style> 	
+	</head>
+	<body onload='move()'>
+	<div id="gameWindow">
+		<img id="cat" src="img/cat.png">
+		<img id="dog" src="img/dog.png">
+		<div id="btnMoveAnimals" class="button noSelect" onclick="move();">Move</div>	
+	</div>		
+	</body>
+</html>
