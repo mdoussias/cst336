@@ -9,7 +9,7 @@ Homework 4
 		<title>Cat Dog Game</title>
 		<meta charset="utf-8">
 		<script type="text/javascript" src="js/functions.js"></script>
-		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>	
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 		<script>
 			$(document).ready(function()
 				{
@@ -47,18 +47,33 @@ Homework 4
 					$('#btnMoveAnimals').css('width','60px');					
 					$('#btnMoveAnimals').css('top','240px');					
 					$('#btnMoveAnimals').css('left','20px');
-					$('#btnMoveAnimals').css('z-index','3');					
+					$('#btnMoveAnimals').css('z-index','3');	
+					
+					//Set some attributes of the linkDiv id
+					$('#linkDiv').css('background-color','orange');
+	
+					
+					//Set some attributes of the linkPara id
+					$('#linkPara').css('font-weight','bold');						
+					$('#linkPara').css('text-align','center');
 				});
 		</script>
 		<style>
 			@import url("css/style.css");
-		</style> 	
+		</style> 
+		
+		
 	</head>
 	<body onload='move()'>
+	<div id="linkDiv">
+		<p id='linkPara'> <a href="../homework4.2"> Click here to go to the other game! </a> </p>
+	    <br />
+	</div>
+	<br><br>	
 	<div id="gameWindow">
 		<img id="cat" src="img/cat.png">
 		<img id="dog" src="img/dog.png">
 		<div id="btnMoveAnimals" class="button noSelect" onclick="move();">Move</div>	
-	</div>		
+	</div>
 	</body>
 </html>
