@@ -3,9 +3,15 @@ Mac Doussias
 CST 336 Homework CSUMB
 LAB8
 QUIZ
+
+
+TODO  Something is wrong with the 'display' attrivbutes
+Make sure you check according to the assignment the display
+
+
+TODO something is wrong with how it is averaging 
+Make sure you check the SQL pull
 -->
-
-
 <?php
 session_start();
 
@@ -57,7 +63,7 @@ session_start();
         
         <!--Javascript files-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script src='js/gradeQuiz.js'></script> <!-- TODO-->
+        <script src='js/gradeQuiz.js'></script> 
     </body>
 </html>
 

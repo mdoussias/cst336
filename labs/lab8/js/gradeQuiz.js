@@ -20,7 +20,7 @@ $(document).ready(function(){
         //Checks if answers are correct
         // Question 1
         if(answer1 === '1994'){
-            correctAnwer($('#question1-feedback'));
+            correctAnswer($('#question1-feedback'));
         }else{
             incorrectAnswer($('#question1-feedback'));
         }
@@ -29,7 +29,7 @@ $(document).ready(function(){
         
         // Question 2
         if(answer2 === 'C'){
-            correctAnwer($('#question2-feedback'));
+            correctAnswer($('#question2-feedback'));
         }else{
             incorrectAnswer($('#question2-feedback'));
         }
@@ -38,8 +38,8 @@ $(document).ready(function(){
 
         //Displays quiz score
         $('#score').html(score);
-        $('#waiting').html("<img src='img/loading.gif alt='submitting data' />");
-        $("input[type='submit']").css('display',''); //Is this display or display none?
+        $('#waiting').html("<img src='img/loading.gif' alt='submitting data' />");
+        $("input[type='submit']").css('display','none'); //Is this display or display none?
 
         //Submits and stores score, retrieves average score
         $.ajax({
@@ -51,9 +51,9 @@ $(document).ready(function(){
                 //console.log(data);
                 $('#times').html(data.times);
                 $('#average').html(data.average);
-                $('#feedback').html('display','block');
+                $('#feedback').css('display','block');
                 $('#waiting').html("");
-                $("#input[type='submit']").css("display","none");                
+                $("#input[type='submit']").css("display","");                
             },
             complete: function(data,status) { //optional, used for debugging purposes
                // alert(status);

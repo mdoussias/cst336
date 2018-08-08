@@ -29,7 +29,7 @@ h1 {
 }
 
 #feedback {
-    display: none;  /*Hides feedback when accessing quiz */
+    display: none; /*Hides feedback when accessing quiz */
     margin: 0 auto;
     text-align: center;
 }
